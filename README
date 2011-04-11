@@ -1,0 +1,36 @@
+/******
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*****
+
+PROJECT-		Simpler Validator jQuery Plugin (simplval)
+COPYRIGHT-		2011 © Skyler Brungardt
+AUTHOR-			Skyler Brungardt
+CREATED-		03/29/11
+NOTES-			This is a plugin for jQuery validation with more 
+				simple validation than the existing plugins at the 
+				time of its creation, allowing for more modular 
+				implementation.  This plugin is meant to be 
+				lightweight, with only the necessary parts - the 
+				plugin will only return a true or false value based 
+				upon if the field passes validation or not, and is 
+				required or not.  For automatic error display, try 
+				using the Thick Validator plugin (thickval), which 
+				automatically displays errors appropriately if a 
+				field fails validation.
+REQUIREMENTS-	1.	Most any version of jQuery, recommended 1.2.6 or 
+					greater.
+				2.	The form element on which this validator is 
+					called should have a unique ID attribute.
+VERSION-		1.0.0:  Initial release.
+******/
